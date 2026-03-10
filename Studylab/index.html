@@ -1,14 +1,121 @@
 <!DOCTYPE html>
-<html lang="en"> 
+<html lang="en">
+
 <head>
     <meta charset="utf-8">
-<meta name="viewport" content="width">
-  <title>Portfolio</title>
+    <meta name="viewpoint" content="width">
+    <title>NoteSolution</title>
+
+<!--link to external css-->
+<link rel="stylesheet" Href="style.css">
 </head>
-<header
-<section>
-<h1>Phinias<h1>
-<p>I a passionately learning programming.</p>
-</section>
+
+<header>
+    <section id="Home">
+        <!--logo-->
+        <div class="container header-container">
+            <h1 class="logo">NoteSolution</h1>
+
+            <!--navigationbar-->
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Browsee-notes">Browse Notes</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <!--searchbar-->
+        <div class="search-container">
+            <form action="#search-results" method="get">
+                <input type="text" placeholder="search notes..." name="query">
+                <button type="submit">search</button>
+            </form>
+        </div>
+    </section>
 </header>
+
+<body>
+    <section id="about">
+        <!--image-->
+        <div class="about-image" <img src="image source" alt="Student studying with a laptop">
+        </div>
+
+        <!--text content-->
+        <div class="about-content">
+            <h2>NoteSolution - Your Study Notes Hub</h2>
+
+            <p>
+                NoteSolution provides organzed academic notes for campus students.
+
+                Browse subjects, access study materials and simplify your learning with a platform designed
+                to make learning easier and more efficient.
+            </p>
+
+            <a href="#Browse-notes">
+                <button>Browse Notes</button>
+            </a>
+        </div>
+
+        <section id="Browse notes">
+            <h2>Browse Notes</h2>
+            <div class="subjects">
+
+                <div class="subject">
+                    <h3><a href="law.html">Law</a></h3>
+                </div>
+
+                <div class="subject">
+                    <h3><a href="medicine.html">Medicine and Surgery</a></h3>
+                </div>
+
+                <div class="subject">
+                    <h3><a href="IT.html">Information Technology</a></h3>
+                </div>
+
+                <div class="subject">
+                    <h3><a href="engineering.html">Engineering</a></h3>
+                </div>
+
+                <div class="subject">
+                    <h3><a href="education.html">Education</a></h3>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="Contact">
+            <h2>Contact NoteSolution</h2>
+            <p>Having a question, suggestion or want to contribute notes?<br>
+                Send us a message and help improve NoteSolution for students.</p>
+
+            <form>
+                <fieldset>
+                    <legend>Send Us a Message</legend>
+
+                    <label for="name">Name</label><br>
+                    <input type="text" id="name" name="name" required><br></br>
+
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" name="email" required><br></br>
+
+                    <label for="message">Message</label><br>
+                    <textarea id="message" name="message" rows="5" required></textarea><br></br>
+
+                    <button type="submit">Send Message</button>
+
+                </fieldset>
+            </form>
+        </section>
+
+        <footer>
+            <div class="footer-legal">
+                <p>&copy; 2026 Notesolution. All Eights Reserved.</p>
+            </div>
+        </footer>
+
+</body>
+
 </html>
